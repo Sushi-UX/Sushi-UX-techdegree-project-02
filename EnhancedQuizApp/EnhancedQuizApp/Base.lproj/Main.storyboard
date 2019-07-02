@@ -18,14 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="The correct answer should be" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vT-cm-5NK">
-                                <rect key="frame" x="16" y="127" width="343" height="64"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you say “congratulations” in Portuguese?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFC-7M-aX4">
+                                <rect key="frame" x="16" y="26" width="343" height="43"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="C7b-SG-myY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The correct answer should be" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vT-cm-5NK">
+                                <rect key="frame" x="16" y="80" width="343" height="64"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="textColor" red="1" green="0.61176470588235299" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dc5-cc-eHC">
-                                <rect key="frame" x="25" y="199" width="325" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dc5-cc-eHC">
+                                <rect key="frame" x="25" y="168" width="325" height="56"/>
                                 <color key="backgroundColor" red="0.043137254901960784" green="0.21176470588235294" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="i1p-uB-Aou"/>
@@ -44,8 +54,8 @@
                                 <color key="tintColor" red="0.23921568627450981" green="0.33333333333333331" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Nakakatawa ka"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LV-5T-1WS">
-                                <rect key="frame" x="25" y="333" width="325" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1LV-5T-1WS">
+                                <rect key="frame" x="25" y="369" width="325" height="56"/>
                                 <color key="backgroundColor" red="0.043137254901960784" green="0.21176470588235294" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="T9J-A7-Itj"/>
@@ -54,8 +64,8 @@
                                 <color key="tintColor" red="0.23921568627450981" green="0.33333333333333331" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Nakakatawa ka"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zV-Nh-FBt">
-                                <rect key="frame" x="34" y="397" width="325" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zV-Nh-FBt">
+                                <rect key="frame" x="25" y="469" width="325" height="56"/>
                                 <color key="backgroundColor" red="0.043137254901960784" green="0.21176470588235294" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="4kZ-vq-IBq"/>
@@ -64,8 +74,8 @@
                                 <color key="tintColor" red="0.23921568627450981" green="0.33333333333333331" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Nakakatawa ka"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWf-Ym-sFn">
-                                <rect key="frame" x="34" y="461" width="325" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWf-Ym-sFn">
+                                <rect key="frame" x="25" y="569" width="325" height="56"/>
                                 <color key="backgroundColor" red="0.0" green="0.53333333333333333" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="KcF-9A-Koe"/>
@@ -74,14 +84,6 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Next Question"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you say “congratulations” in Portuguese?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFC-7M-aX4">
-                                <rect key="frame" x="16" y="63" width="343" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.039215686274509803" green="0.14901960784313725" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -96,13 +98,18 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dc5-cc-eHC" secondAttribute="trailing" constant="25" id="Kiq-XT-f0l"/>
                             <constraint firstItem="gnx-EB-1B6" firstAttribute="centerX" secondItem="dc5-cc-eHC" secondAttribute="centerX" id="OYu-gI-5Yc"/>
                             <constraint firstItem="4vT-cm-5NK" firstAttribute="centerX" secondItem="dc5-cc-eHC" secondAttribute="centerX" id="Oqr-2m-M8r"/>
+                            <constraint firstItem="BFC-7M-aX4" firstAttribute="leading" secondItem="4vT-cm-5NK" secondAttribute="leading" id="Pv9-RR-akM"/>
                             <constraint firstItem="2zV-Nh-FBt" firstAttribute="centerX" secondItem="dc5-cc-eHC" secondAttribute="centerX" id="TzY-Ef-SFS"/>
                             <constraint firstItem="1LV-5T-1WS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="Wd7-6F-POT"/>
+                            <constraint firstItem="BFC-7M-aX4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="WgB-n4-Nac"/>
                             <constraint firstItem="gnx-EB-1B6" firstAttribute="top" secondItem="dc5-cc-eHC" secondAttribute="bottom" constant="45" id="XgG-90-Sut"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gnx-EB-1B6" secondAttribute="trailing" constant="25" id="a9m-8T-uH0"/>
                             <constraint firstItem="1LV-5T-1WS" firstAttribute="centerX" secondItem="dc5-cc-eHC" secondAttribute="centerX" id="bIO-yn-1vF"/>
+                            <constraint firstItem="4vT-cm-5NK" firstAttribute="top" secondItem="BFC-7M-aX4" secondAttribute="bottom" constant="11" id="dTa-kF-TkT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NWf-Ym-sFn" secondAttribute="trailing" constant="25" id="iH0-06-FFW"/>
                             <constraint firstItem="1LV-5T-1WS" firstAttribute="top" secondItem="gnx-EB-1B6" secondAttribute="bottom" constant="44" id="jYa-m0-Qn7"/>
+                            <constraint firstItem="BFC-7M-aX4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="6" id="kRv-gx-kaO"/>
+                            <constraint firstItem="BFC-7M-aX4" firstAttribute="trailing" secondItem="4vT-cm-5NK" secondAttribute="trailing" id="p2q-hO-b5H"/>
                             <constraint firstItem="NWf-Ym-sFn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="pFw-mp-GfC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1LV-5T-1WS" secondAttribute="trailing" constant="25" id="px5-a5-ZJx"/>
                             <constraint firstItem="gnx-EB-1B6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="z1G-lc-2D7"/>
